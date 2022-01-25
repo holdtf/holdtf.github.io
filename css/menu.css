@@ -1,0 +1,94 @@
+.menuflex {
+  /* border: 1px solid yellow; */
+  /* background-color:yellow; */
+  /* внеш отступ */
+  margin: 0px;
+  /* в строку */
+  display: flex;
+  /* внеш отступ */
+  /* margin-top: 30px; */
+  /* по ширине */
+  justify-content: center;
+}
+.menubox {
+  /* border: 1px solid blue; */
+  /* ширина */ 
+  width: 1180px;
+  /* background-color: rgb(3, 0, 33); */
+  /* в строку */
+  display: flex;
+  /* по ширине центр*/
+  justify-content: center;
+  /* по высоте центр */
+  align-items: center;
+}
+.menubox a {
+  
+  /* border: 1px solid gray; */
+  color: rgb(3, 0, 33);
+  text-decoration: none;
+  font-size: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.menubox1 a:hover {
+  color: white;
+  background-color: #0014FF;
+  border-radius: 13px;
+}
+.menubox2 a:hover {
+  color: white;
+  background-color: #DA0037;
+  border-radius: 13px;
+}
+.menubox3 a:hover {
+  color: white;
+  background-color: #FC5404;
+  border-radius: 13px;
+}
+.menubox4 a:hover {
+  color: white;
+  background-color: #F9B208;
+  border-radius: 13px;
+}
+.menubox5 a:hover {
+  color: white;
+  background-color: #54E346;
+  border-radius: 13px;
+}
+@media (max-width: 5000px) {
+  .menubox {
+    width: 1180px;
+  }
+  .menubox div {
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+}
+@media (max-width: 1200px) {
+  /* .menubox {
+    max-width: 970px;
+  } */
+  .menubox div {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+@media (max-width: 992px) {
+  /* .menubox {
+    max-width: 750px;
+  } */
+  .menubox div {
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+}
+@media (max-width: 767px) {
+  /* .menuflex {
+    height: 200px;
+  } */
+  .menubox {
+    max-width: 480px;
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,6 @@
+.indexbodytext {
+  /* в строку */
+  display: flex;
+  /* по ширине */
+  justify-content: center;
+}

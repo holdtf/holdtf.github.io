@@ -24,12 +24,27 @@
 }
 .menubox a {
   
-  /* border: 1px solid gray; */
-  color: rgb(3, 0, 33);
+  /* border: 1px solid gray; color: rgb(3, 50, 33);*/
+  color: rgb(73,0,133);
   text-decoration: none;
   font-size: 20px;
   padding-left: 10px;
   padding-right: 10px;
+}
+.menubox01 a {
+  color: white;
+  background-color: #0014FF;
+  border-radius: 13px;
+}
+.menubox02 a {
+  color: white;
+  background-color: #DA0037;
+  border-radius: 13px;
+}
+.menubox05 a {
+  color: white;
+  background-color: #54E346;
+  border-radius: 13px;
 }
 .menubox1 a:hover {
   color: white;
